@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>个人档</title>
+		<link rel="icon" href="./img/logo.png" type="image/x-icon"/>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.css">
+		<link rel="stylesheet" href="../css/skin/default/layer.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/head.css" />
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/personal.css" />
+
+	</head>
+
+	<body>
+		<div id="index_start">
+			<!-- 头部 -->
+			<div class="navTitle">
+				<ul class="clearfix">
+					<p class="pull-left">欢迎来到金师库！</p>
+					<li class="pull-left"><a href="http://www.eqidd.com/chuangkeApace/html/EQR.html" target="_blank">易企阅</a></li>
+					<li class="pull-left"><a href="http://www.jinshiku.com" target="_blank">金师库</a></li>
+					<li class="pull-left"><a href="http://www.eqidd.com/yiqiBug/html/EQBuy.html" target="_blank">易企购</a></li>
+					<li class="pull-left"><a href="http://www.eqidd.com/createrSpace/html/personInfo.html" target="_blank">创客空间</a></li>
+					<li class="pull-left"><a href="http://www.eqidd.com/comSpace/eqd.html" target="_blank">企业空间</a></li>
+					<div class="pull-right">
+						<li class="pull-left loginBtn"><a id="loginBtn"></a></li>
+						<li class="pull-left regBtn"><a id="regBtn"></a></li>
+						<li class="pull-left download"><a href="http://www.eqidd.com/html/download.html" target="_blank">APP
+								下载</a></li>
+					</div>
+				</ul>
+			</div>
+			
+			<div id="index_box">
+				<div class="index_nav">
+					<div class="nav_box clearfix">
+						<div class="nav_text clearfix">
+							<img class="headImg pull-left" src=" " alt="">
+							<div class="userInfo pull-left">
+								<h3 class="userName"></h3>
+								<p class="describe"></p>
+							</div>
+
+						</div>
+						<ul class="nav_show">
+							<li>
+								<span class="wzcount"></span>
+								<span>文章</span>
+							</li>
+							<li>
+								<span class="fkcount"></span>
+								<span>访客</span>
+							</li>
+							<li>
+								<span class="lycount"></span>
+								<span>留言</span>
+							</li>
+							<li>
+								<span class="cpcount"></span>
+								<span>产品</span>
+							</li>
+							<li class="last_li" style="cursor: pointer;">
+								<img src="img/startyellow.png" alt="" style="margin-top: 10px;margin-bottom: 4px;width: 42px;">
+								<p style="color: black;">加入收藏</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<ul class="nav_click" id="navClickID">
+					<li>
+						<a href="javascript:void(0);" target="_top">主页</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" target="_top">日志</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">个人档</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" target="_top">课程</a>
+					</li>
+
+					<li>
+						<a href="javascript:void(0);" target="_top">留言</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">访客</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 中部 -->
+			<div class="index_content">
+				<div class="left-right">
+					<div class="right-right">
+						<div class="right-right-one">
+							<p>
+								课酬：<span class="span1"></span><span class="span2">元/天</span>
+							</p>
+							<p>
+								擅长领域：
+							</p>
+							<div>
+								<ul class="fieldList"></ul>
+							</div>
+
+							<p>电话：</p>
+							<p class="viewPhone">查看电话</p>
+						</div>
+
+						<div class="right-right-four right-recommend">
+							<div class="right-content-title">
+								<div class="right-content-left">
+									推荐讲师
+								</div>
+								<div class="right-content-right">
+									<a href=" ">我也要出现在这>></a>
+								</div>
+							</div>
+							<ul class="tjteach"></ul>
+						</div>
+
+						<div class="right-right-four right-activited">
+							<div class="right-content-title">
+								<div class="right-content-left">
+									活跃讲师
+								</div>
+								<div class="right-content-right">
+									<a href=" ">我也要出现在这>></a>
+								</div>
+							</div>
+							<ul class="activeTeach"></ul>
+						</div>
+						<div class="right-right-four right-same">
+							<div class="right-content-title">
+								<div class="right-content-left">
+									同领域讲师
+								</div>
+								<div class="right-content-right">
+									<a href=" ">我也要出现在这>></a>
+								</div>
+							</div>
+							<ul class="sameFieldTeach"></ul>
+						</div>
+
+						<div class="right-right-three new-article">
+							<div class="right-content-title">
+								<div class="right-content-left">
+									最新文章
+								</div>
+								<div class="right-content-right">
+									<a href=" ">我也要出现在这>></a>
+								</div>
+							</div>
+							<ul class="newArt"></ul>
+						</div>
+
+					</div>
+
+					<div class="left-left">
+						<div id="peosonal">
+							<div class="left-left-title clearfix">
+								<div class="titleL">
+									<img src="img/message.png" alt="" />
+									<span>个人档</span>
+								</div>
+								<ul class="peosonList">
+									<li class="active">个人信息</li>
+									<li>个人优势</li>
+									<li>个人行业</li>
+									<li>个人相册</li>
+									<li>实名认证</li>
+									<li>修改密码</li>
+								</ul>
+							</div>
+						</div>
+						<div class="peosonInfo">
+							<div class="set div_show ">
+								<form action="" id="info" novalidate class="form-inline">
+									<label><span>联系方式：</span><span><button type="button" class="btn btn-primary viewCont">查看联系方式</button></span></label>
+									<label><span>常驻地址：</span><span class="address"></span></label>
+									<label><span>研究领域：</span><span class="field"></span></label>
+									<label><span>课程价格（元/天）：</span><span class="price"></span></label>
+									<label class="labBox"><span>课程：</span><span class="textBox"><textarea class="form-control textarea course"
+											 rows="3" cols="12" disabled="disabled"></textarea></span></label>
+
+									<label class="labBox"><span>授课风格：</span><span class="textBox"><textarea class="form-control textarea courseStyle"
+											 rows="3" cols="12" disabled="disabled"></textarea></span></label>
+									<label class="labBox"><span>讲师简介：</span><span class="textBox"><textarea class="form-control textarea introduce"
+											 rows="3" cols="12" disabled="disabled"></textarea></span></label>
+									<label class="labBox"><span>客户案例：</span><span class="custBox"></span></label>
+									<label class="labBox"><span>曾服务企业：</span><span class="serviceBox"></span></label>
+								</form>
+							</div>
+							<div>
+								<textarea rows="" cols="" class="advantage" disabled="disabled"></textarea>
+							</div>
+							<div class="indust">
+								<p>所属行业:</p>
+								<p class="hy"></p>
+								<p>所在岗位:</p>
+								<p class="gw"></p>
+								<p>服务行业:</p>
+								<p class="fhy"></p>
+								<p>服务岗位:</p>
+								<p class="fgw"></p>
+								<p>服务时间:</p>
+								<p class="fsj"></p>
+								<p>服务类型:</p>
+								<p class="flx"></p>
+							</div>
+							<div>
+								<ul class="album gallery" id="gallery"> </ul>
+
+								<p class="clearfix typeArea">
+									<span class="back"><img src="img/goback.png" alt="">返回相册</span><button class="nextpageBtn pull-right">下一页</button>
+								</p>
+								<p class="clearfix typeArea2">
+									<button class="nextpageBtn2 pull-right">下一页</button>
+								</p>
+
+							</div>
+							<!-- <div></div>
+							<div>666666666</div> -->
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="side">
+			<ul>
+				<li class="downLoad"><a href="http://www.eqidd.com/html/download.html"><img src="img/phonehand.png"><span>APP下载</span></a>
+				</li>
+				<li class="callBack"><a href="http://www.eqidd.com/html/feedback.html"><img src="img/callback.png"><span>问题反馈</span></a>
+				</li>
+				<li class="publicNum"><a href="javascript:void(0);"><img src="img/wechat.png"><span>公众号</span></a></li>
+				<li class="leaveMsg"><a href="tencent://message/?uin=1605932791&Site=&Menu=yes"><img src="img/msg.png"><span>在线留言</span></a>
+				</li>
+				<li class="contact"><a href="javascript:void(0);"><img src="img/phone.png"><span>联系我们</span></a></li>
+				<li class="goTop"><a href="javascript:void(0);"><img src="img/sj.png"><span>TOP</span></a></li>
+			</ul>
+		</div>
+
+		<div id="footer"></div>
+		<!-- 弹窗 -->
+
+		<div class="contact2">
+			<p><span>手机：</span><span class="phone"></span></p>		
+			<p><span>助理手机：</span><span class="assPhone"></span></p>
+			<p><span>助理姓名：</span><span class="assName"></span></p>
+			<p><span>邮箱：</span><span class="email"></span></p>
+			<p><span>QQ：</span><span class="QQ"></span></p>
+			<p><span>微信：</span><span class="wechat"></span></p>
+		</div>
+		<!-- // -->
+		<div class="intro"></div>
+		<div class="service"></div>
+
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="http://cdn.bootcss.com/layer/3.1.0/layer.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
+		<!-- Latest compiled and minified Locales -->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/locale/bootstrap-table-zh-CN.min.js"></script>
+		<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/personal.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

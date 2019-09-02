@@ -1,0 +1,280 @@
+
+/* ///////////////////////////// */
+.left-right {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	/*padding-top: 26px;*/
+}
+
+.left-left {
+	float: right;
+	/*border: 1px solid red;*/
+	width: 900px;
+	/* background: white; */
+}
+
+/*右边部分开始*/
+
+.right-right {
+	float: left;
+	/*border: 1px solid green;*/
+	width: 270px;
+}
+
+.right-right-one {
+	width: 270px;
+	color: white;
+	padding-top: 20px;
+	background: url(../img/leftHeadBg.jpg) no-repeat;
+	background-size: 100% 100%;
+	padding-left: 12px;
+	padding-bottom: 30px;
+}
+
+.right-right-one h2 {}
+
+.right-right .right-right-one p {
+	margin-left: 22px;
+	/* font-size: 14px; */
+	color: #dadada;
+}
+
+.right-right .right-right-one p .span1 {
+	color: #ffd600;
+	font-size: 36px;
+	margin-left: 8px;
+}
+
+.right-right .right-right-one p .span2 {
+	color: white;
+	margin-left: 8px;
+}
+
+.right-right .right-right-one p:nth-child(2) {
+	margin-bottom: 29px;
+	margin-top: 26px;
+}
+
+.right-right .right-right-one ul {
+	padding-bottom: 6px;
+	overflow: hidden;
+	background: none;
+}
+
+.right-right .right-right-one ul li {
+	padding: 10px 15px;
+	overflow: hidden;
+	float: left;
+	background: white;
+	margin-left: 20px;
+	color: #636363;
+	margin-bottom: 18px;
+	width: auto;
+}
+
+.right-right .right-right-one p:last-child {
+	margin-top: 21px;
+	width: 204px;
+	background: #f7ae16;
+	padding: 12px 0;
+	text-align: center;
+	color: white;
+}
+
+.right-right-two,
+.right-right-three,
+.right-right-four {
+	margin-top: 20px;
+}
+
+.right-right .right-content-title {
+	background: #00368a;
+	width: 270px;
+	height: 49px;
+	padding: 10px 20px;
+	overflow: hidden;
+	color: white;
+}
+
+.right-right .right-content-left {
+	float: left;
+	line-height: 27px;
+}
+
+.right-right .right-content-right {
+	float: right;
+	line-height: 27px;
+}
+
+.right-right .right-content-right a {
+	color: #acacac;
+	font-size: 14px;
+	border-bottom: 1px solid #acacac;
+	text-decoration: none;
+}
+
+.right-right ul {
+	background: white;
+	padding-bottom: 20px;
+}
+
+.right-right ul li {
+	width: 270px;
+	padding: 15px 20px 0 20px;
+	overflow: hidden;
+}
+
+.right-right ul li .p1 {
+	color: #7a7a7a;
+	font-size: 15px;
+	margin-bottom: 6px;
+	display: flex;
+	align-items: center;
+}
+
+.right-right ul li .p2 {
+	color: #c1c1c1;
+	margin-top: 7px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 16px;
+}
+
+.right-right .right-right-four li img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.right-right .right-right-four li .teacher-right {
+	float: left;
+}
+
+.right-right .right-right-four li .teacher-right .p1 {
+	margin-left: 10px;
+	
+}
+
+.right-right .right-right-four li .teacher-right .p2 {
+	border-bottom: none;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 179px;
+	padding-left: 9px;
+	text-align: left;
+}
+/* 左侧 */
+
+#comments{
+	background-color: white;
+}
+#course,#log{
+	background-color: white;
+	margin-top: 20px;
+}
+.bootstrap-table tbody,.bootstrap-table tbody tr td,.bootstrap-table tbody tr{
+	display: block;
+	cursor: pointer;
+}
+.bootstrap-table tbody tr {
+	display: block;
+	border-bottom: 1px solid lavender;
+	padding: 20px 0;
+}
+.bootstrap-table thead{
+	display: none!important;
+}
+.bootstrap-table tbody tr td{
+	display: flex;
+	justify-content: center;
+}
+.logT{
+	display: flex;
+	align-items: center;
+}
+.logBox{
+	width: 92%;
+	color: #b6b6b6;
+}
+.logT p:nth-child(1){
+	border: 3px solid #ccc;
+  height: 6px;
+	margin-right: 14px;
+}
+.logT p:nth-child(2){
+	font-size: 16px;
+	color: #757575;
+	width: 88%;
+}
+.logT p:nth-child(3){
+	
+}
+.logContent{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#comments{
+	height: 404px;
+}
+.textarea {
+	width: 92%;
+	height: 200px!important;
+	background-color: rgb(238, 238, 238);
+	margin: 26px 4%;
+	text-align: left;
+	padding: 20px 0 0 20px;
+
+}
+.submit {
+	background-color: #003689;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	color: white;
+	border: none;
+	margin-left: 4%;
+}
+.courseBox{
+	width: 100%;
+}
+.courseM{
+	display: flex;
+	justify-content: space-around;
+}
+
+.courseM div p span{
+	color: #b6b6b6;
+}
+.courseM div p{
+	color: #757575;
+}
+.courseM div{
+	width: 50%;
+}
+.courseM div:first-child{
+	margin-left: 36px;
+}
+.courseT{
+	color: #3c3c3c;
+	font-weight: bold;
+	font-size: 16px;
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+.time{
+	color: #fe9400!important;
+  font-size: 26px;
+	margin-left: 5px;
+}
+.courseType p{
+	margin-bottom: 15px;
+}
+.more{
+	margin-right: 32px;
+	cursor: pointer;
+}
+.more:hover{
+	color: #00368a;
+}

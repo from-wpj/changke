@@ -1,0 +1,117 @@
+.bootstrap-table thead {
+	display: none !important;
+}
+
+.bootstrap-table tbody,
+.bootstrap-table tbody tr td,
+.bootstrap-table tbody tr {
+	display: block;
+	cursor: pointer;
+}
+
+.bootstrap-table tbody tr {
+	width: 92%;
+	margin-left: 4%;
+	display: block;
+	border-bottom: 1px solid lavender;
+	padding: 24px 0;
+}
+
+.bootstrap-table tbody tr td {
+	display: flex;
+	justify-content: center;
+}
+.pageDiv>p {
+	width: 50%;
+	margin: 10px auto;
+}
+
+.pageDiv>p button {
+	width: 30%;
+	height: 50px;
+	background-color: #05509a;
+	color: #fff;
+	line-height: 50px;
+	border: none;
+	outline: none;
+
+}
+#comments{
+	height: 404px;
+	background-color: white;
+}
+.textarea {
+	width: 92%;
+	height: 200px!important;
+	background-color: rgb(238, 238, 238);
+	margin: 26px 4%;
+	text-align: left;
+	padding: 20px 0 0 20px;
+
+}
+.submit {
+	background-color: #003689;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	color: white;
+	border: none;
+	margin-left: 4%;
+}
+#msgList{
+	background-color: white;	
+	margin-bottom: 20px;
+}
+.msgBox{
+	width: 100%;
+	display: flex;
+	
+}
+.msgBox div{
+	/* width: 50%; */
+}
+.msgImg{
+	width: 65px;
+	height: 65px;
+	margin-right: 26px;
+}
+.msgImg img{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+}
+.left-left{
+	margin-bottom: 60px;
+}
+.msgContent{
+	width: 735px;
+	margin-bottom: 40px;
+}
+.msgContent div:first-child{
+	color: #242424;
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+}
+.msgContent div:last-child{
+	color: #949494;
+	font-size: 14px;	
+	margin-top: 24px;
+	
+}
+.msgContent div:last-child p:first-child{
+	margin-right: 40px;
+}
+.msgContent div:last-child p{
+	line-height: 20px;
+}
+.callBack{
+	background-color: #eee;
+}
+.cbkmsg{
+	color: #6A6A6A;
+	padding: 20px 24px;
+}
+.cbkmsg span{
+	color: #B6B6B6;
+}

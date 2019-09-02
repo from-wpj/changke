@@ -1,0 +1,69 @@
+#course{
+	background-color: white;
+}
+.bootstrap-table tbody,.bootstrap-table tbody tr td,.bootstrap-table tbody tr{
+	display: block;
+	cursor: pointer;
+}
+.bootstrap-table tbody tr {
+	display: block;
+	border-bottom: 1px solid lavender;
+	padding: 20px 0;
+}
+.bootstrap-table thead{
+	display: none!important;
+}
+.bootstrap-table tbody tr td{
+	display: flex;
+	justify-content: center;
+}
+.pageDiv>p {
+	width: 50%;
+	margin: 10px auto;
+}
+
+.pageDiv>p button {
+	width: 30%;
+	height: 50px;
+	background-color: #05509a;
+	color: #fff;
+	line-height: 50px;
+	border: none;
+	outline: none;
+
+}
+.courseBox{
+	width: 100%;
+}
+.courseM{
+	display: flex;
+	justify-content: space-around;
+}
+
+.courseM div p span{
+	color: #b6b6b6;
+}
+.courseM div p{
+	color: #757575;
+}
+.courseM div{
+	width: 50%;
+}
+.courseM div:first-child{
+	margin-left: 36px;
+}
+.courseT{
+	color: #3c3c3c;
+	font-weight: bold;
+	font-size: 16px;
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+.time{
+	color: #fe9400!important;
+  font-size: 26px;
+	margin-left: 5px;
+}
+.courseType p{
+	margin-bottom: 15px;
+}
